@@ -1,4 +1,4 @@
-# Find by keyword
+ï»¿# Find by keyword
 
 ```
 GET /place/name/{keyword}
@@ -24,7 +24,7 @@ GET /place/name/{keyword}
 
 ## Example
 ```
-GET /place/name/¤ı
+GET /place/name/ç‹
 ```
 
 # Response
@@ -65,15 +65,15 @@ GET /place/name/¤ı
 {
 	"result":[
 		{
-			"word":"¤ı¤p©ú",
+			"word":"ç‹å°æ˜",
 			"type":"PERSON"
 		},
 		{
-			"word":"¤ı¤j©ú",
+			"word":"ç‹å¤§æ˜",
 			"type":"PERSON"
 		},
 		{
-			"word":"¤ı¤¤©ú",
+			"word":"ç‹ä¸­æ˜",
 			"type":"PERSON"
 		}
 	]
