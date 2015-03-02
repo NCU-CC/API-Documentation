@@ -22,6 +22,9 @@ https://appstore.cc.ncu.edu.tw
 If you have any problems, please file a issue or just send us pull requests.
 Any pull reqeusts submit to master branch are allowed, please submit to **develop** branch.
 
+## Document Format Reference
+The format of this document is refer to [Documentation for University of Waterloo API](https://github.com/uWaterloo/api-documentation).
+
 ## License
 MIT License Copyright © 2015-2015 Computer Center, National Central University
 
