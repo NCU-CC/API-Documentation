@@ -53,7 +53,7 @@ GET /place/name/王
                 <tr>
                     <td>type</td>
                     <td>Enum</td>
-                    <td>One of {PERSON, PLACE}</td>
+                    <td>One of {PERSON, PLACE, UNIT}</td>
                 </tr>
             </table>
         </td>
