@@ -5,7 +5,7 @@ GET /place/name/{buildingName}/units
 ```
 
 ## Description
-> Find units by building name, including administrative and academic units.
+> Find units by building name, including administrative and research units.
 
 # Request
 ## Parameters
