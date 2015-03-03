@@ -58,7 +58,7 @@ GET /place/name/志希館
 				<tr>
 					<td>type</td>
 					<td>Enum</td>
-					<td>Place Type</td>
+					<td>[Place Type]</td>
 				</tr>
                 <tr>
                     <td>location</td>
