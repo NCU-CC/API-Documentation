@@ -11,6 +11,7 @@ https://appstore.cc.ncu.edu.tw
 
 ## Endpoints
 ##### [Location-Service]
+> /location/
 - [/place/name/{name}](location-service/name_name.md)
 - [/place/type/{placeType}](location-service/type.md)
 - [/place/name/{buildingName}/units](location-service/name_buildingName.md)
