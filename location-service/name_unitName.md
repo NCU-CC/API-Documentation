@@ -103,11 +103,11 @@ GET /unit/name/電子計算機中心
 	"result" :
 	[
 		{
-			"unitCode" : "A800",
-			"chineseName" : "電子計算機中心",
-			"englishName" : "Computer Center",
-			"shortName" : "電算中心",
-			"fullName" : "電子計算機中心",
+			"unitCode" : "A830",
+			"chineseName" : "校務資訊組",
+			"englishName" : "Campus Information Management Division",
+			"shortName" : "校務資訊組",
+			"fullName" : "電子計算機中心-校務資訊組",
 			"url" : "http://www.cc.ncu.edu.tw/introduction/member.php",
 			"location" : {
 				"lat" : 24.970128,

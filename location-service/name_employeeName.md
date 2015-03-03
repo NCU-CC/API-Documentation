@@ -24,7 +24,7 @@ GET /person/name/{facultyName}
 
 ## Example
 ```
-GET /person/name/¤ı¤p©ú
+GET /person/name/ç‹å°æ˜
 ```
 
 # Response
@@ -86,15 +86,15 @@ GET /person/name/¤ı¤p©ú
 	"result" : 
 	[
 		{
-			"chineseName" : "¤ı¤p©ú",
+			"chineseName" : "ç‹å°æ˜",
 			"englishName" : "Wang, Xiao Ming",
-			"title" : "§U²z",
+			"title" : "åŠ©ç†",
 			"primaryUnit" : {
 				"unitCode" : "A800",
-				"chineseName" : "¹q¤l­pºâ¾÷¤¤¤ß",
+				"chineseName" : "é›»å­è¨ˆç®—æ©Ÿä¸­å¿ƒ",
 				"englishName" : "Computer Center",
-				"shortName" : "¹qºâ¤¤¤ß",
-				"fullName" : "¹q¤l­pºâ¾÷¤¤¤ß",
+				"shortName" : "é›»ç®—ä¸­å¿ƒ",
+				"fullName" : "é›»å­è¨ˆç®—æ©Ÿä¸­å¿ƒ",
 				"url" : "http://www.cc.ncu.edu.tw/introduction/member.php",
 				"location" : {
 					"lat" : 24.970128,
@@ -103,10 +103,10 @@ GET /person/name/¤ı¤p©ú
 			},
 			"secondaryUnit" : {
 				"unitCode" : "A830",
-				"chineseName" : "®Õ°È¸ê°T²Õ",
+				"chineseName" : "æ ¡å‹™è³‡è¨Šçµ„",
 				"englishName" : "Campus Information Management Division",
-				"shortName" : "®Õ°È¸ê°T²Õ",
-				"fullName" : "¹q¤l­pºâ¾÷¤¤¤ß-®Õ°È¸ê°T²Õ",
+				"shortName" : "æ ¡å‹™è³‡è¨Šçµ„",
+				"fullName" : "é›»å­è¨ˆç®—æ©Ÿä¸­å¿ƒ-æ ¡å‹™è³‡è¨Šçµ„",
 				"url" : "http://www.cc.ncu.edu.tw/introduction/member.php",
 				"location" : {
 					"lat" : 24.970128,
