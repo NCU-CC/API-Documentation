@@ -87,4 +87,5 @@ GET /place/name/志希館/units
 	]
 }
 ```
-[Unit Object]:/location-service/name_unitName.md#structure
+## Notes
+- [Unit Object](name_unitName.md#structure)
