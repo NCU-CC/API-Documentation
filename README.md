@@ -2,7 +2,10 @@
 Documentation for National Central University API
 
 ## Authorization
-You must get the API token before making API calls. Go to [API management page], and login with NCU portal.
+You must get the API token before making API calls. 
+
+1.  Go to [API management page], and login with NCU portal to get the API token.
+2.  Place API token in header key **Authorization** and value **"Bearer " + token**
 
 ## Root URL
 ```
@@ -22,7 +25,7 @@ https://appstore.cc.ncu.edu.tw
 If you have any problems, please file a issue or just send us pull requests.
 Any pull reqeusts submit to master branch are allowed, please submit to **develop** branch.
 
-## Document Format Reference
+## Format Reference
 The format of this document is refer to [Documentation for University of Waterloo API](https://github.com/uWaterloo/api-documentation).
 
 ## License
