@@ -29,59 +29,59 @@ GET /place/type/{placeType}
 	</tr>
 	<tr>
 		<td>WHEELCHAIR_RAMP</td>
-		<td>µL»ÙÃª©Y¹D</td>
+		<td>ç„¡éšœç¤™å¡é“</td>
 	</tr>
 	<tr>
 		<td>DISABLED_CAR_PARKING</td>
-		<td>µL»ÙÃª¨T¨®¦ì</td>
+		<td>ç„¡éšœç¤™æ±½è»Šä½</td>
 	</tr>
 	<tr>
 		<td>DISABLED_MOTOR_PARKING</td>
-		<td>µL»ÙÃª¾÷¨®¦ì</td>
+		<td>ç„¡éšœç¤™æ©Ÿè»Šä½</td>
 	</tr>
 	<tr>
 		<td>EMERGENCY</td>
-		<td>ºò«æ</td>
+		<td>ç·Šæ€¥</td>
 	</tr>
 	<tr>
 		<td>AED</td>
-		<td>AED ¦Û°ÊÅé¥~¤ßÅ¦¹qÀ»¥hÅ¸¾¹</td>
+		<td>AED è‡ªå‹•é«”å¤–å¿ƒè‡Ÿé›»æ“Šå»é¡«å™¨</td>
 	</tr>
 	<tr>
 		<td>RESTAURANT</td>
-		<td>À\ÆU</td>
+		<td>é¤å»³</td>
 	</tr>
 	<tr>
 		<td>SPORT_RECREATION</td>
-		<td>¥ğ¶¢¥Í¬¡</td>
+		<td>ä¼‘é–’ç”Ÿæ´»</td>
 	</tr>
 	<tr>
 		<td>ADMINISTRATION</td>
-		<td>¦æ¬FªA°È</td>
+		<td>è¡Œæ”¿æœå‹™</td>
 	</tr>
 	<tr>
 		<td>RESEARCH</td>
-		<td>±Ğ¾Ç¬ã¨s</td>
+		<td>æ•™å­¸ç ”ç©¶</td>
 	</tr>
 	<tr>
 		<td>DORMITORY</td>
-		<td>±JªÙ</td>
+		<td>å®¿èˆ</td>
 	</tr>
 	<tr>
 		<td>OTHER</td>
-		<td>¨ä¥L³æ¦ì</td>
+		<td>å…¶ä»–å–®ä½</td>
 	</tr>
 	<tr>
 		<td>ATM</td>
-		<td>´£´Ú¾÷</td>
+		<td>ææ¬¾æ©Ÿ</td>
 	</tr>
 	<tr>
 		<td>BUS_STATION</td>
-		<td>¤½¨®¯¸µP</td>
+		<td>å…¬è»Šç«™ç‰Œ</td>
 	</tr>
 	<tr>
 		<td>PARKING_LOT</td>
-		<td>°±¨®³õ</td>
+		<td>åœè»Šå ´</td>
 	</tr>
 	<tr>
 		<td></td>
@@ -125,7 +125,7 @@ GET /place/type/AED
 				<tr>
 					<td>type</td>
 					<td>Enum</td>
-					<td>[Place Type](#place-type)</td>
+					<td>Place Type</td>
 				</tr>
                 <tr>
                     <td>location</td>
@@ -155,7 +155,7 @@ GET /place/type/AED
 	"result" : 
 	[
 		{
-			"chineseName" : "AED ¦Û°ÊÅé¥~¤ß¹qÀ»¥hÅ¸¾¹",
+			"chineseName" : "AED è‡ªå‹•é«”å¤–å¿ƒé›»æ“Šå»é¡«å™¨",
 			"englishName" : "AED, Automated External Defibrillator",
 			"type" : "AED",
 			"location" : {
@@ -164,7 +164,7 @@ GET /place/type/AED
 			}
 		}, 
 		{
-			"chineseName" : "AED ¦Û°ÊÅé¥~¤ß¹qÀ»¥hÅ¸¾¹",
+			"chineseName" : "AED è‡ªå‹•é«”å¤–å¿ƒé›»æ“Šå»é¡«å™¨",
 			"englishName" : "AED, Automated External Defibrillator",
 			"type" : "AED",
 			"location" : {
@@ -173,7 +173,7 @@ GET /place/type/AED
 			}
 		}, 
 		{
-			"chineseName" : "AED ¦Û°ÊÅé¥~¤ß¹qÀ»¥hÅ¸¾¹",
+			"chineseName" : "AED è‡ªå‹•é«”å¤–å¿ƒé›»æ“Šå»é¡«å™¨",
 			"englishName" : "AED, Automated External Defibrillator",
 			"type" : "AED",
 			"location" : {
@@ -182,7 +182,7 @@ GET /place/type/AED
 			}
 		}, 
 		{
-			"chineseName" : "AED ¦Û°ÊÅé¥~¤ß¹qÀ»¥hÅ¸¾¹",
+			"chineseName" : "AED è‡ªå‹•é«”å¤–å¿ƒé›»æ“Šå»é¡«å™¨",
 			"englishName" : "AED, Automated External Defibrillator",
 			"type" : "AED",
 			"location" : {
@@ -191,7 +191,7 @@ GET /place/type/AED
 			}
 		}, 
 		{
-			"chineseName" : "AED ¦Û°ÊÅé¥~¤ß¹qÀ»¥hÅ¸¾¹",
+			"chineseName" : "AED è‡ªå‹•é«”å¤–å¿ƒé›»æ“Šå»é¡«å™¨",
 			"englishName" : "AED, Automated External Defibrillator",
 			"type" : "AED",
 			"location" : {
