@@ -58,7 +58,7 @@ GET /place/name/志希館
 				<tr>
 					<td>type</td>
 					<td>Enum</td>
-					<td>[Place Type](/location-service/type.md#place-type)</td>
+					<td>Place Type</td>
 				</tr>
                 <tr>
                     <td>location</td>
@@ -99,3 +99,5 @@ GET /place/name/志希館
 	]
 }
 ```
+## Notes
+- [Place Type](type.md#place-type)
