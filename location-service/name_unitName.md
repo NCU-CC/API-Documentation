@@ -5,7 +5,7 @@ GET /unit/name/{unitFullName}
 ```
 
 ## Description
-> Find unit's information by unit's **FULL** name.
+> Find unit's information by unit's **FULL** Chinese name.
 
 # Request
 ## Parameters
@@ -24,7 +24,7 @@ GET /unit/name/{unitFullName}
 
 ## Example
 ```
-GET /unit/name/¹q¤l­pºâ¾÷¤¤¤ß
+GET /unit/name/é›»å­è¨ˆç®—æ©Ÿä¸­å¿ƒ
 ```
 
 # Response
@@ -104,10 +104,10 @@ GET /unit/name/¹q¤l­pºâ¾÷¤¤¤ß
 	[
 		{
 			"unitCode" : "A830",
-			"chineseName" : "®Õ°È¸ê°T²Õ",
+			"chineseName" : "æ ¡å‹™è³‡è¨Šçµ„",
 			"englishName" : "Campus Information Management Division",
-			"shortName" : "®Õ°È¸ê°T²Õ",
-			"fullName" : "¹q¤l­pºâ¾÷¤¤¤ß-®Õ°È¸ê°T²Õ",
+			"shortName" : "æ ¡å‹™è³‡è¨Šçµ„",
+			"fullName" : "é›»å­è¨ˆç®—æ©Ÿä¸­å¿ƒ-æ ¡å‹™è³‡è¨Šçµ„",
 			"url" : "http://www.cc.ncu.edu.tw/introduction/member.php",
 			"location" : {
 				"lat" : 24.970128,
