@@ -115,12 +115,12 @@ GET /place/type/AED
                 <tr>
                     <td>chineseName</td>
                     <td>String</td>
-                    <td>place's name in Chinese</td>
+                    <td>place's Chinese name</td>
                 </tr>
                 <tr>
                     <td>englishName</td>
                     <td>String</td>
-                    <td>place's name in English</td>
+                    <td>place's English name</td>
                 </tr>
 				<tr>
 					<td>type</td>

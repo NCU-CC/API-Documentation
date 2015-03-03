@@ -48,12 +48,12 @@ GET /person/name/王小明
                 <tr>
                     <td>chineseName</td>
                     <td>String</td>
-                    <td>faculty's name in Chinese</td>
+                    <td>faculty's Chinese name</td>
                 </tr>
                 <tr>
                     <td>englishName</td>
                     <td>String</td>
-                    <td>faculty's name in English</td>
+                    <td>faculty's English name</td>
                 </tr>
                 <tr>
                     <td>title</td>
@@ -113,7 +113,7 @@ GET /person/name/王小明
 					"lng" : 121.193719
 				}
 			},
-			"officePhone" : "57518"
+			"officePhone" : "99999"
 		}
 	]
 }

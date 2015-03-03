@@ -1,11 +1,11 @@
-# Find Unit Information
+# Find By Name
 
 ```
-GET /unit/name/{unitFullName}
+GET /place/name/{name}
 ```
 
 ## Description
-> Find unit's information by unit's **FULL** name.
+> Find location of landscapes, buildings or faculties by its **Chinese** name.
 
 # Request
 ## Parameters
@@ -24,7 +24,7 @@ GET /unit/name/{unitFullName}
 
 ## Example
 ```
-GET /unit/name/¹q¤l­pºâ¾÷¤¤¤ß
+GET /place/name/å¿—å¸Œé¤¨
 ```
 
 # Response
@@ -43,38 +43,23 @@ GET /unit/name/¹q¤l­pºâ¾÷¤¤¤ß
         <td>result</td>
         <td>list</td>
         <td>
-			Unit Object
+			Result Object
             <table>
-                <tr>
-                    <td>unitCode</td>
-                    <td>String</td>
-                    <td>unit's code</td>
-                </tr>
                 <tr>
                     <td>chineseName</td>
                     <td>String</td>
-                    <td>unit's name Chinese name</td>
+                    <td>place's Chinese name</td>
                 </tr>
                 <tr>
                     <td>englishName</td>
                     <td>String</td>
-                    <td>unit's name English name</td>
+                    <td>place's English name</td>
                 </tr>
-                <tr>
-                    <td>shortName</td>
-                    <td>String</td>
-                    <td>abbreviation of unit's Chinese name</td>
-                </tr>
-                <tr>
-                    <td>fullName</td>
-                    <td>String</td>
-                    <td>unit's official Chinese name</td>
-                </tr>
-                <tr>
-                    <td>url</td>
-                    <td>URL</td>
-                    <td>unit's website</td>
-                </tr>
+				<tr>
+					<td>type</td>
+					<td>Enum</td>
+					<td>[Place Type](/location-service/type.md#place-type)</td>
+				</tr>
                 <tr>
                     <td>location</td>
                     <td>LatLng</td>
@@ -100,18 +85,15 @@ GET /unit/name/¹q¤l­pºâ¾÷¤¤¤ß
 ## Example
 ```json
 {
-	"result" :
+	"result" : 
 	[
 		{
-			"unitCode" : "A830",
-			"chineseName" : "®Õ°È¸ê°T²Õ",
-			"englishName" : "Campus Information Management Division",
-			"shortName" : "®Õ°È¸ê°T²Õ",
-			"fullName" : "¹q¤l­pºâ¾÷¤¤¤ß-®Õ°È¸ê°T²Õ",
-			"url" : "http://www.cc.ncu.edu.tw/introduction/member.php",
+			"chineseName" : "å¿—å¸Œé¤¨",
+			"englishName" : "Zhi-Xi Building",
+			"type" : "ADMINISTRATION",
 			"location" : {
-				"lat" : 24.970128,
-				"lng" : 121.193719
+				"lat" : 24.970126,
+				"lng" : 121.193683
 			}
 		}
 	]
