@@ -80,5 +80,5 @@ GET /place/name/王
 }
 ```
 ## Notes
-1. Seperate keywords by space.
-2. Keywords is supported in both Chinese and English.
+1. Separate keywords by space.
+2. Keywords are supported in both Chinese and English.

@@ -14,7 +14,7 @@ https://appstore.cc.ncu.edu.tw
 
 ## Endpoints
 ##### [Location-Service]
-> /location/
+> /location
 - [/place/name/{name}](location-service/name_name.md)
 - [/place/type/{placeType}](location-service/type.md)
 - [/place/name/{buildingName}/units](location-service/name_buildingName.md)
@@ -24,10 +24,10 @@ https://appstore.cc.ncu.edu.tw
 
 ## Problems?
 If you have any problems, please file a issue or just send us pull requests.
-Any pull reqeusts submit to master branch are allowed, please submit to **develop** branch.
+Any pull requests submitted to master branch are not allowed, please submit to **develop** branch.
 
 ## Format Reference
-The format of this document is refer to [Documentation for University of Waterloo API](https://github.com/uWaterloo/api-documentation).
+The format of this document refer to [Documentation for University of Waterloo API](https://github.com/uWaterloo/api-documentation).
 
 ## License
 MIT License Copyright © 2015-2015 Computer Center, National Central University
