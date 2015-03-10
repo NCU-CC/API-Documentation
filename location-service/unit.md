@@ -31,7 +31,7 @@ GET /unit
   <tr>
 	<td><b>buildingName</b></td>
 	<td><i>no</i></td>
-	<td>building's full **Chinese** name</td>
+	<td>building's full Chinese name</td>
   </tr>
   <tr>
 	<td><b>limit</b></td>

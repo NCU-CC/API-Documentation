@@ -1,4 +1,4 @@
-# Find Places.
+# Find Landscapes, Buildings or Faculties.
 
 ```
 GET /place
@@ -36,7 +36,7 @@ GET /place
   <tr>
 	<td><b>name</b></td>
 	<td><i>no</i></td>
-	<td>place's full **Chinese** name</td>
+	<td>place's full Chinese name</td>
   </tr>
   <tr>
 	<td><b>limit</b></td>
