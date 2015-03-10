@@ -30,17 +30,17 @@ GET /place
   </tr>
   <tr>
 	<td><b>type</b></td>
-	<td>no</td>
+	<td><i>no</i></td>
 	<td>place type</td>
   </tr>
   <tr>
 	<td><b>name</b></td>
-	<td>no</td>
-	<td>place's full name</td>
+	<td><i>no</i></td>
+	<td>place's full **Chinese** name</td>
   </tr>
   <tr>
 	<td><b>limit</b></td>
-	<td>no</td>
+	<td><i>no</i></td>
 	<td>1 &lt;= limit &lt;= 50, defaults to 5.</td>
   </tr>
 </table>

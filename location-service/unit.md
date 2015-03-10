@@ -1,30 +1,47 @@
-# Find Units by Building Name
+# Find Administrative and Research Units.
 
 ```
-GET /place/name/{buildingName}/units
+GET /unit
 ```
 
 ## Description
-> Find units by building name, including administrative and research units.
+> Find administrative and research units.
 
 # Request
-## Parameters
+## Headers
 <table>
   <tr>
-    <td><b>Parameter</b></td>
+    <td><b>Name</b></td>
     <td><b><b>Required</b></b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
-    <td><b>token</b></td>
+    <td><b>X-API-NCU-TOKEN</b></td>
     <td><i>yes</i></td>
-    <td>Your API token</td>
+    <td>Your public API token</td>
   </tr>
 </table>
-
+## Query Parameters
+<table>
+  <tr>
+    <td><b>Name</b></td>
+    <td><b><b>Required</b></b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+	<td><b>buildingName</b></td>
+	<td><i>no</i></td>
+	<td>building's full **Chinese** name</td>
+  </tr>
+  <tr>
+	<td><b>limit</b></td>
+	<td><i>no</i></td>
+	<td>1 &lt;= limit &lt;= 50, defaults to 5.</td>
+  </tr>
+</table>
 ## Example
 ```
-GET /place/name/志希館/units
+GET /unit?building=志希館
 ```
 
 # Response
@@ -76,4 +93,4 @@ GET /place/name/志希館/units
 }
 ```
 ## Notes
-- [Unit Object](name_unitName.md#structure)
+- [Unit Object](unit_unitName.md#structure)
