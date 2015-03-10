@@ -16,7 +16,7 @@ https://api.cc.ncu.edu.tw
 ##### [Location-Service]
 > /location
 - [/place](location-service/place.md)
-- [/place/search](location-service/place_search.md)
+- [/search](location-service/search.md)
 - [/unit](location-service/unit.md)
 - [/unit/{unitFullName}](location-service/unit_unitName.md)
 - [/faculty/{facultyName}](location-service/faculty.md)

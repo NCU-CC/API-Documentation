@@ -1,11 +1,11 @@
-# Find By Keywords.
+# Search By Keywords.
 
 ```
-GET /place/search
+GET /search
 ```
 
 ## Description
-> Find location of landscapes, buildings or faculties by keywords.
+> Search location of landscapes, buildings or faculties by keywords.
 
 # Request
 ## Headers
@@ -42,7 +42,7 @@ GET /place/search
 
 ## Example
 ```
-GET /place/search?q=志希
+GET /search?q=志希
 ```
 
 # Response
