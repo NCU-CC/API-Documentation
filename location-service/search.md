@@ -1,30 +1,48 @@
-# Find By Name
+# Search By Keywords.
 
 ```
-GET /place/name/{name}
+GET /search
 ```
 
 ## Description
-> Find location of landscapes, buildings or faculties by its **Chinese** name.
+> Search location of landscapes, buildings or faculties by keywords.
 
 # Request
-## Parameters
+## Headers
 <table>
   <tr>
-    <td><b>Parameter</b></td>
+    <td><b>Name</b></td>
     <td><b><b>Required</b></b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
-    <td><b>token</b></td>
+    <td><b>X-NCU-API-TOKEN</b></td>
     <td><i>yes</i></td>
-    <td>Your API token</td>
+    <td>Your public API token</td>
+  </tr>
+</table>
+## Query parameters
+<table>
+  <tr>
+    <td><b>Name</b></td>
+    <td><b><b>Required</b></b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+    <td><b>q</b></td>
+    <td><i>no</i></td>
+    <td>keywords, at least 1, at most 3.</td>
+  </tr>
+  <tr>
+	<td><b>limit</b></td>
+	<td><i>no</i></td>
+	<td>1 &lt;= limit &lt;= 50, defaults to 5.</td>
   </tr>
 </table>
 
 ## Example
 ```
-GET /place/name/志希館
+GET /search?q=志希
 ```
 
 # Response
@@ -100,4 +118,4 @@ GET /place/name/志希館
 }
 ```
 ## Notes
-- [Place Type](type.md#place-type)
+- [Place Type](place.md#place-type)

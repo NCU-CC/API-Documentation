@@ -1,24 +1,47 @@
-# Find By PlaceType
+# Find Landscapes, Buildings or Faculties.
 
 ```
-GET /place/type/{placeType}
+GET /place
 ```
 
 ## Description
-> Find location of landscapes, buildings or faculties by place type.
+> Find location of landscapes, buildings or faculties by query parameters.
 
 # Request
-## Parameters
+## Headers
 <table>
   <tr>
-    <td><b>Parameter</b></td>
+    <td><b>Name</b></td>
     <td><b><b>Required</b></b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
-    <td><b>token</b></td>
+    <td><b>X-API-NCU-TOKEN</b></td>
     <td><i>yes</i></td>
-    <td>Your API token</td>
+    <td>Your public API token</td>
+  </tr>
+</table>
+## Query Parameters
+<table>
+  <tr>
+    <td><b>Name</b></td>
+    <td><b><b>Required</b></b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+	<td><b>type</b></td>
+	<td><i>no</i></td>
+	<td>place type</td>
+  </tr>
+  <tr>
+	<td><b>name</b></td>
+	<td><i>no</i></td>
+	<td>place's full Chinese name</td>
+  </tr>
+  <tr>
+	<td><b>limit</b></td>
+	<td><i>no</i></td>
+	<td>1 &lt;= limit &lt;= 50, defaults to 5.</td>
   </tr>
 </table>
 ## Place Type
@@ -83,15 +106,11 @@ GET /place/type/{placeType}
 		<td>PARKING_LOT</td>
 		<td>停車場</td>
 	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
 </table>
 
 ## Example
 ```
-GET /place/type/AED
+GET /place?type=AED
 ```
 
 # Response

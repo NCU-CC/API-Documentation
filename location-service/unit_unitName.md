@@ -1,30 +1,30 @@
 # Find Unit Information
 
 ```
-GET /unit/name/{unitFullName}
+GET /unit/{unitFullName}
 ```
 
 ## Description
 > Find unit's information by unit's **FULL** Chinese name.
 
 # Request
-## Parameters
+## Headers
 <table>
   <tr>
-    <td><b>Parameter</b></td>
+    <td><b>Name</b></td>
     <td><b><b>Required</b></b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
-    <td><b>token</b></td>
+    <td><b>X-API-NCU-TOKEN</b></td>
     <td><i>yes</i></td>
-    <td>Your API token</td>
+    <td>Your public API token</td>
   </tr>
 </table>
 
 ## Example
 ```
-GET /unit/name/電子計算機中心
+GET /unit/電子計算機中心
 ```
 
 # Response

@@ -1,30 +1,30 @@
 # Find Information of Faculties
 
 ```
-GET /person/name/{facultyName}
+GET /faculty/{facultyName}
 ```
 
 ## Description
 > Find faculty's information by his/her **Chinese** name.
 
 # Request
-## Parameters
+## Headers
 <table>
   <tr>
-    <td><b>Parameter</b></td>
+    <td><b>Name</b></td>
     <td><b><b>Required</b></b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
-    <td><b>token</b></td>
+    <td><b>X-API-NCU-TOKEN</b></td>
     <td><i>yes</i></td>
-    <td>Your API token</td>
+    <td>Your public API token</td>
   </tr>
 </table>
 
 ## Example
 ```
-GET /person/name/王小明
+GET /faculty/王小明
 ```
 
 # Response
@@ -119,4 +119,4 @@ GET /person/name/王小明
 }
 ```
 ## Notes
-- [Unit Object](name_unitName.md#structure)
+- [Unit Object](unit_unitName.md#structure)
