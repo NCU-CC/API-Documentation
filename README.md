@@ -31,13 +31,13 @@ Some NCU APIs are bilingual(zh-TW, en-US) and default to zh-TW. Use **Accept-Lan
 - [/unit/college/{collegeId}/department](course-service/unit/college_department.md)
 - [/unit/department/{departmentId}/target](course-service/unit/department_target.md)
 
-- [/course/{serialNo}](course-service/course/course.md)
-- [/course/{serialNo}/limit](course-service/course/limit.md)
-
 - [/serach](course-service/search/search.md)
 - [/search/department/{departmentId}](course-service/search/department.md)
 - [/search/target/{target}](course-service/search/target.md)
 - [/search/summer/{stage}](course-service/search/summer.md)
+
+- [/course/{serialNo}](course-service/course/course.md)
+- [/course/{serialNo}/limit](course-service/course/limit.md)
 
 - [/student/{studentId}/selected](course-service/student/selected.md)
 - [/student/{studentId}/tracking](course-service/student/tracking.md)
