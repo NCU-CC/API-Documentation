@@ -30,6 +30,8 @@ All strings are encoded in UTF-8.
 
 #### [Course-Service]
 > /course
+- [/status](course-service/status.md)
+
 - [/unit/college](course-service/unit/college.md)
 - [/unit/college/{collegeId}/department](course-service/unit/college_department.md)
 - [/unit/department/{departmentId}/target](course-service/unit/department_target.md)
