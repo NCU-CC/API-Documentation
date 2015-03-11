@@ -209,7 +209,7 @@ GET /course/12034
 						<table>
 							<tr>
 								<td>sequences</td>
-								<td>1,2,3,4,Z,5,6,7,8,9</td>
+								<td>1,2,3,4,Z,5,6,7,8,9,A,B,C,D,E,F</td>
 							</tr>
 							<tr>
 								<td>Remark</td>

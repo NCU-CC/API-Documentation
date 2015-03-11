@@ -5,7 +5,7 @@ GET /search
 ```
 
 ## Description
-> Search Course Information.
+> Search course information.
 
 # Request
 ## Headers
