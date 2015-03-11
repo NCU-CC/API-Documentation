@@ -22,6 +22,25 @@ https://api.cc.ncu.edu.tw
 - [/faculty/{facultyName}](location-service/faculty.md)
 - [/building](location-service/building.md)
 
+#### [Course-Service]
+> /course
+- [/unit](course-service/unit.md)
+- [/unit/college](course-service/unit/unit_college.md)
+- [/unit/college/{collegeId}/department](course-service/unit/college_department.md)
+- [/unit/department/{departmentId}/openfor](course-service/unit/department_openfor.md)
+
+- [/course/{serialNo}](course-service/course/course.md)
+- [/course/{serialNo}/limit](course-service/course/limit.md)
+
+- [/serach](course-service/search/search.md)
+- [/search/department/{departmentId}](course-service/search/department.md)
+- [/search/openfor/{openfor}](course-service/search/openfor.md)
+- [/search/summer/{stage}](course-service/search/summer.md)
+
+- [/student/{studentId}/selected](course-service/student/selected.md)
+- [/student/{studentId}/tracking](course-service/student/tracking.md)
+
+
 ## Problems?
 If you have any problems, please file a issue or just send us pull requests.
 Any pull requests submitted to master branch are not allowed, please submit to **develop** branch.
