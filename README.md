@@ -12,6 +12,9 @@ You must get the API token before making API calls.
 https://api.cc.ncu.edu.tw
 ```
 
+## Bilingual
+Some NCU APIs are bilingual(zh-TW, en-US) and default to zh-TW. Use **Accept-Language** header to specify your language.
+
 ## Endpoints
 ##### [Location-Service]
 > /location
@@ -24,8 +27,7 @@ https://api.cc.ncu.edu.tw
 
 #### [Course-Service]
 > /course
-- [/unit](course-service/unit.md)
-- [/unit/college](course-service/unit/unit_college.md)
+- [/unit/college](course-service/unit/college.md)
 - [/unit/college/{collegeId}/department](course-service/unit/college_department.md)
 - [/unit/department/{departmentId}/openfor](course-service/unit/department_openfor.md)
 
@@ -53,3 +55,4 @@ MIT License Copyright © 2015-2015 Computer Center, National Central University
 
 [API management page]:https://api.cc.ncu.edu.tw/manage
 [Location-Service]:https://github.com/NCU-CC/Location-Service
+[Course-Service]:https://github.com/NCU-CC/Course-Service
