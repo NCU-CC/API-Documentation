@@ -20,6 +20,7 @@ https://api.cc.ncu.edu.tw
 - [/unit](location-service/unit.md)
 - [/unit/{unitFullName}](location-service/unit_unitName.md)
 - [/faculty/{facultyName}](location-service/faculty.md)
+- [/building](location-service/building.md)
 
 ## Problems?
 If you have any problems, please file a issue or just send us pull requests.
