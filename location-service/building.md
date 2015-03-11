@@ -43,7 +43,7 @@ GET /building
         <td>result</td>
         <td>list</td>
         <td>
-			Person Object
+			Building Object
             <table>
                 <tr>
                     <td>chineseName</td>
