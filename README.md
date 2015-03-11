@@ -1,19 +1,22 @@
 # API-Documentation
 Documentation for National Central University API
 
+## Root URL
+```
+https://api.cc.ncu.edu.tw
+```
+
 ## Authorization
 You must get the API token before making API calls. 
 
 1.  Go to [API management page], and login with NCU portal to get the public API token.
 2.  Place API token in header key **X-NCU-API-TOKEN** and value **token**
 
-## Root URL
-```
-https://api.cc.ncu.edu.tw
-```
-
-## Bilingual
+## Language
 Some NCU APIs are bilingual(zh-TW, en-US) and default to zh-TW. Use **Accept-Language** header to specify your language.
+
+## Encoding
+All strings are encoded in UTF-8.
 
 ## Endpoints
 ##### [Location-Service]

@@ -12,7 +12,7 @@ GET /unit/department/{departmentId}/target
 <table>
   <tr>
     <td><b>Name</b></td>
-    <td><b><b>Required</b></b></td>
+    <td><b>Required</b><b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
@@ -24,7 +24,7 @@ GET /unit/department/{departmentId}/target
 
 ## Example
 ```
-GET /unit/department/{departmentId}/target
+GET /unit/department/deptI1I1000I0/target
 ```
 
 # Response
@@ -66,11 +66,11 @@ GET /unit/department/{departmentId}/target
 	"result" : 
 	[
         {
-          'name' : '¤¤°ê¤å¾Ç¨t[¤£¤ÀÃş]',
+          'name' : 'ä¸­åœ‹æ–‡å­¸ç³»[ä¸åˆ†é¡]',
           'id' : 'cofuZdeptI1I1001I0ZcofgI0'
         },
         {
-          'name' : '¤¤°ê¤å¾Ç¨t[¤@¦~¯Å]',
+          'name' : 'ä¸­åœ‹æ–‡å­¸ç³»[ä¸€å¹´ç´š]',
           'id' : 'cofuZdeptI1I1001I0ZcofgI1'
         }
     ]

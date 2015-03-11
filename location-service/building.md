@@ -12,7 +12,7 @@ GET /building
 <table>
   <tr>
     <td><b>Name</b></td>
-    <td><b><b>Required</b></b></td>
+    <td><b>Required</b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>

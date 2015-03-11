@@ -12,7 +12,7 @@ GET /unit/college/{collegeId}/department
 <table>
   <tr>
     <td><b>Name</b></td>
-    <td><b><b>Required</b></b></td>
+    <td><b>Required</b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
@@ -64,10 +64,10 @@ GET /unit/college/deptI1I1000I0/department
 ```json
 [
 	{
-		'name' : '¤å¾Ç°|',
+		'name' : 'æ–‡å­¸é™¢',
 		'id' : 'deptI1I1000I0'
 	}, {
-		'name' : '¤¤°ê¤å¾Ç¨t',
+		'name' : 'ä¸­åœ‹æ–‡å­¸ç³»',
 		'id' : 'deptI1I1001I0'
 	}
 ]

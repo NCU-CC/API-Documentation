@@ -12,7 +12,7 @@ GET /unit/college
 <table>
   <tr>
     <td><b>Name</b></td>
-    <td><b><b>Required</b></b></td>
+    <td><b>Required</b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
@@ -66,11 +66,11 @@ GET /unit/college
 	"result" : 
 	[
 		{
-			"name" : "��ǰ|",
+			"name" : "文學院",
 			"id" : "deptI1I1000I0"
 		},
 		{
-			"name" : "�z�ǰ|",
+			"name" : "理學院",
 			"id" : "deptI1I2000I0"
 		}
 	]

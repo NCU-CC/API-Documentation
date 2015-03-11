@@ -12,7 +12,7 @@ GET /course/{serialNo}
 <table>
   <tr>
     <td><b>Name</b></td>
-    <td><b><b>Required</b></b></td>
+    <td><b>Required</b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
@@ -87,39 +87,39 @@ GET /course/12034
 						<table>
 							<tr>
 								<td>Chinese</td>
-								<td>¤¤¤å</td>
+								<td>ä¸­æ–‡</td>
 							</tr>
 							<tr>
 								<td>English</td>
-								<td>­^»y</td>
+								<td>è‹±èª</td>
 							</tr>
 							<tr>
 								<td>French</td>
-								<td>ªk»y</td>
+								<td>æ³•èª</td>
 							</tr>
 							<tr>
 								<td>Taiwanese</td>
-								<td>¥x»y</td>
+								<td>å°èª</td>
 							</tr>
 							<tr>
 								<td>Hakka</td>
-								<td>«È»y</td>
+								<td>å®¢èª</td>
 							</tr>
 							<tr>
 								<td>Japanese</td>
-								<td>¤é¥»»y</td>
+								<td>æ—¥æœ¬èª</td>
 							</tr>
 							<tr>
 								<td>Spanish</td>
-								<td>¦è¯Z¤ú»y</td>
+								<td>è¥¿ç­ç‰™èª</td>
 							</tr>
 							<tr>
 								<td>German</td>
-								<td>¼w»y</td>
+								<td>å¾·èª</td>
 							</tr>
 							<tr>
 								<td>Partially English</td>
-								<td>³¡¥÷­^»y</td>
+								<td>éƒ¨ä»½è‹±èª</td>
 							</tr>
 						</table>
 					</td>
@@ -132,15 +132,15 @@ GET /course/12034
 						<table>
 							<tr>
 								<td>no</td>
-								<td>¤£¨Ï¥Î</td>
+								<td>ä¸ä½¿ç”¨</td>
 							</tr>
 							<tr>
 								<td>optional</td>
-								<td>³¡¥÷¨Ï¥Î</td>
+								<td>éƒ¨ä»½ä½¿ç”¨</td>
 							</tr>
 							<tr>
 								<td>all</td>
-								<td>¥ş³¡¨Ï¥Î</td>
+								<td>å…¨éƒ¨ä½¿ç”¨</td>
 							</tr>
 						</table>
 					</td>
@@ -148,7 +148,7 @@ GET /course/12034
                 <tr>
                     <td>isFirstRun</td>
                     <td>Boolean</td>
-                    <td>is available for first selection.</td>
+                    <td>is available at first selection.</td>
                 </tr>
                 <tr>
                     <td>isPreSelect</td>
@@ -225,11 +225,11 @@ GET /course/12034
 						<table>
 							<tr>
 								<td>required</td>
-								<td>¥²­×</td>
+								<td>å¿…ä¿®</td>
 							</tr>
 							<tr>
 								<td>elective</td>
-								<td>¿ï­×</td>
+								<td>é¸ä¿®</td>
 							</tr>
 						</table>
 					</td>
@@ -253,15 +253,15 @@ GET /course/12034
 			"serialNo" : 12034,
 			"no" : "EL5001",
 			"classNo" : "*",
-			"name" : "¤å¾Ç\/¤å¤Æ²z½×¾ÉÅª",
+			"name" : "æ–‡å­¸\/æ–‡åŒ–ç†è«–å°è®€",
 			"isCanceled" : false,
-			"memo" : "­­¤T¡B¥|¦~¯Å",
+			"memo" : "é™ä¸‰ã€å››å¹´ç´š",
 			"isMasterDoctor" : false,
 			"language" : "Chinese",
 			"usePasswordCard" : "no",
 			"isFirstRun" : true,
 			"isPreSelect" : true,
-			"teachers" : "¿ú¤Ò¤H,ªü¤g§B",
+			"teachers" : "éŒ¢å¤«äºº,é˜¿åœŸä¼¯",
 			"credit" : 2,
 			"classRooms" : "C2-209,C2-209",
 			"time" : "0-5,2-34",
