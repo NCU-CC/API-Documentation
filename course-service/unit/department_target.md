@@ -1,18 +1,18 @@
-# Find Buildings
+# Find Targets.
 
 ```
-GET /building
+GET /unit/department/{departmentId}/target
 ```
 
 ## Description
-> Find buildings of NCU.
+> Find targets that departments running courses for.
 
 # Request
 ## Headers
 <table>
   <tr>
     <td><b>Name</b></td>
-    <td><b>Required</b></td>
+    <td><b>Required</b><b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
@@ -24,7 +24,7 @@ GET /building
 
 ## Example
 ```
-GET /building
+GET /unit/department/deptI1I1000I0/target
 ```
 
 # Response
@@ -43,17 +43,17 @@ GET /building
         <td>result</td>
         <td>list</td>
         <td>
-			Building Object
+			Target Object
             <table>
                 <tr>
-                    <td>chineseName</td>
+                    <td>name</td>
                     <td>String</td>
-                    <td>building's Chinese name</td>
+                    <td>target name</td>
                 </tr>
                 <tr>
-                    <td>englishName</td>
+                    <td>id</td>
                     <td>String</td>
-                    <td>building's English name</td>
+                    <td>target Id</td>
                 </tr>
             </table>
         </td>
@@ -65,14 +65,14 @@ GET /building
 {
 	"result" : 
 	[
-		{
-			"chineseName" : "行政大樓",
-			"englishName" : "Administrative Building",
-		},
-		{
-			"chineseName" : "總圖書館",
-			"englishName" : "Main Library",
-		},		
-	]
+        {
+          "name" : "中國文學系[不分類]",
+          "id" : "cofuZdeptI1I1001I0ZcofgI0"
+        },
+        {
+          "name" : "中國文學系[一年級]",
+          "id" : "cofuZdeptI1I1001I0ZcofgI1"
+        }
+    ]
 }
 ```

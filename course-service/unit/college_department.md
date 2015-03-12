@@ -1,11 +1,11 @@
-# Find Buildings
+# Find Departments By College.
 
 ```
-GET /building
+GET /unit/college/{collegeId}/department
 ```
 
 ## Description
-> Find buildings of NCU.
+> Find departments by college.
 
 # Request
 ## Headers
@@ -24,7 +24,7 @@ GET /building
 
 ## Example
 ```
-GET /building
+GET /unit/college/deptI1I1000I0/department
 ```
 
 # Response
@@ -43,17 +43,17 @@ GET /building
         <td>result</td>
         <td>list</td>
         <td>
-			Building Object
+			Department Object
             <table>
                 <tr>
-                    <td>chineseName</td>
+                    <td>name</td>
                     <td>String</td>
-                    <td>building's Chinese name</td>
+                    <td>department name</td>
                 </tr>
                 <tr>
-                    <td>englishName</td>
+                    <td>id</td>
                     <td>String</td>
-                    <td>building's English name</td>
+                    <td>department Id</td>
                 </tr>
             </table>
         </td>
@@ -62,17 +62,13 @@ GET /building
 
 ## Example
 ```json
-{
-	"result" : 
-	[
-		{
-			"chineseName" : "行政大樓",
-			"englishName" : "Administrative Building",
-		},
-		{
-			"chineseName" : "總圖書館",
-			"englishName" : "Main Library",
-		},		
-	]
-}
+[
+	{
+		"name" : "文學院",
+		"id" : "deptI1I1000I0"
+	}, {
+		"name" : "中國文學系",
+		"id" : "deptI1I1001I0"
+	}
+]
 ```

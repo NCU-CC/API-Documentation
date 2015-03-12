@@ -1,11 +1,11 @@
-# Find Buildings
+# Find All Colleges.
 
 ```
-GET /building
+GET /unit/college
 ```
 
 ## Description
-> Find buildings of NCU.
+> Find all colleges.
 
 # Request
 ## Headers
@@ -24,7 +24,7 @@ GET /building
 
 ## Example
 ```
-GET /building
+GET /unit/college
 ```
 
 # Response
@@ -43,17 +43,17 @@ GET /building
         <td>result</td>
         <td>list</td>
         <td>
-			Building Object
+			College Object
             <table>
                 <tr>
-                    <td>chineseName</td>
+                    <td>name</td>
                     <td>String</td>
-                    <td>building's Chinese name</td>
+                    <td>college name</td>
                 </tr>
                 <tr>
-                    <td>englishName</td>
+                    <td>id</td>
                     <td>String</td>
-                    <td>building's English name</td>
+                    <td>college Id</td>
                 </tr>
             </table>
         </td>
@@ -66,13 +66,13 @@ GET /building
 	"result" : 
 	[
 		{
-			"chineseName" : "行政大樓",
-			"englishName" : "Administrative Building",
+			"name" : "文學院",
+			"id" : "deptI1I1000I0"
 		},
 		{
-			"chineseName" : "總圖書館",
-			"englishName" : "Main Library",
-		},		
+			"name" : "理學院",
+			"id" : "deptI1I2000I0"
+		}
 	]
 }
 ```

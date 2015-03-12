@@ -12,7 +12,7 @@ GET /unit/{unitFullName}
 <table>
   <tr>
     <td><b>Name</b></td>
-    <td><b><b>Required</b></b></td>
+    <td><b>Required</b></td>
     <td><b>Description</b></td>
   </tr>
   <tr>
@@ -35,7 +35,7 @@ GET /unit/電子計算機中心
 ## Structure
 <table>
     <tr>
-		<td><b>Filed Name</b></td>
+		<td><b>Field Name</b></td>
 		<td><b>Type</b></td>
 		<td><b>Value Description</b></td>
 	</tr>
