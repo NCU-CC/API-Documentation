@@ -55,6 +55,6 @@ GET /status
 ```json
 {
 	"semester" : 1031,
-	"stage" : "�ջڿ��"
+	"stage" : "校際選課"
 }
 ```

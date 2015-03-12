@@ -66,12 +66,12 @@ GET /unit/department/deptI1I1000I0/target
 	"result" : 
 	[
         {
-          'name' : '中國文學系[不分類]',
-          'id' : 'cofuZdeptI1I1001I0ZcofgI0'
+          "name" : "中國文學系[不分類]",
+          "id" : "cofuZdeptI1I1001I0ZcofgI0"
         },
         {
-          'name' : '中國文學系[一年級]',
-          'id' : 'cofuZdeptI1I1001I0ZcofgI1'
+          "name" : "中國文學系[一年級]",
+          "id" : "cofuZdeptI1I1001I0ZcofgI1"
         }
     ]
 }

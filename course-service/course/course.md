@@ -153,12 +153,12 @@ GET /course/12034
                 <tr>
                     <td>isPreSelect</td>
                     <td>Boolean</td>
-                    <td>is available before first selection.</td>
+                    <td>will be selected for student before first selection.</td>
                 </tr>
                 <tr>
                     <td>teachers</td>
                     <td>String</td>
-                    <td>seperated by ,</td>
+                    <td>seperated by ","</td>
                 </tr>
                 <tr>
                     <td>credit</td>
@@ -168,13 +168,12 @@ GET /course/12034
                 <tr>
                     <td>classRooms</td>
                     <td>String</td>
-					<td>{building}-{classroom}, seperated by ,</td>
+					<td>{building}-{classroom}, seperated by ","</td>
                 </tr>
                 <tr>
                     <td>time</td>
-                    <td>String</td>
-					<td>{day of week}-{period}<br>
-						Day of Week
+                    <td>Object</td>
+					<td>Key : Day of Week
 						<table>
 							<tr>
 								<td>0</td>
@@ -205,7 +204,7 @@ GET /course/12034
 								<td>Sunday</td>
 							</tr>
 						</table>
-						Period
+						Value : array of period(s)
 						<table>
 							<tr>
 								<td>sequences</td>
@@ -234,6 +233,22 @@ GET /course/12034
 						</table>
 					</td>
                 </tr>
+				<tr>
+					<td>fullHalf</td>
+					<td>Enum</td>
+                    <td>half year(1 semester) or full year(2 semesters)
+						<table>
+							<tr>
+								<td>full</td>
+								<td>全</td>
+							</tr>
+							<tr>
+								<td>half</td>
+								<td>半</td>
+							</tr>
+						</table>
+					</td>					
+				</tr>
                 <tr>
                     <td>limit</td>
                     <td>Number</td>
@@ -264,7 +279,10 @@ GET /course/12034
 			"teachers" : "錢夫人,阿土伯",
 			"credit" : 2,
 			"classRooms" : "C2-209,C2-209",
-			"time" : "0-5,2-34",
+			"time" : { 
+              "0": ["5"], 
+              "2": ["3", "4"]
+            },
 			"type" : "required",
 			"fullHalf" : "half",
 			"maxStudents" : 0

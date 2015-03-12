@@ -5,7 +5,7 @@ GET /search
 ```
 
 ## Description
-> Search course information.
+> Search course information at current semseter.
 
 # Request
 ## Headers
@@ -28,16 +28,6 @@ GET /search
     <td><b>Name</b></td>
     <td><b>Required</b></td>
     <td><b>Description</b></td>
-  </tr>
-  <tr>
-	<td><b>year</b></td>
-	<td><i>yes</i></td>
-	<td>3 digits of MinGuo year.</td>
-  </tr>
-  <tr>
-	<td><b>semester</b></td>
-	<td><i>yes</i></td>
-	<td>1 digit of semester, 1 for top and 2 for bottom.</td>
   </tr>
   <tr>
 	<td><b>dept</b></td>
@@ -83,12 +73,12 @@ GET /search
   <tr>
 	<td><b>period</b></td>
 	<td><i>no</i></td>
-	<td>1,2,3,4,Z,5,6,7,8,9,A,B,C,D,E,F<td>
+	<td>1,2,3,4,Z,5,6,7,8,9,A,B,C,D,E,F</td>
   </tr>
   <tr>
 	<td><b>limit</b></td>
 	<td><i>no</i></td>
-	<td>1 &lt;= limit &lt;= 500</td>
+	<td>1 &lt;= limit &lt;= 500, defaults to 30.</td>
   </tr>
   <tr>
 	<td><b>keyword</b></td>
@@ -99,7 +89,7 @@ GET /search
 
 ## Example
 ```
-GET /search?year=103&amp;semester=1
+GET /search?period=2&week=3
 ```
 
 # Response
@@ -122,7 +112,7 @@ GET /search?year=103&amp;semester=1
 </table>
 
 ## Example
-- [Course Example](course/course.md#example)
+- [Course Example](../course/course.md#example-1)
 
 ## Notes
-- [Course Object](course/course.md#structure)
+- [Course Object](../course/course.md#structure)
