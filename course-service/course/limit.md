@@ -39,7 +39,7 @@ GET /course/{serialNo}/limit
 			</tr>
 			<tr>
 				<td>semester</td>
-				<td>1 digit of semester, 1 for top and 2 for bottom.</td>
+				<td>1 digit, 1 means first semester and 2 means second semester.</td>
 			</tr>
 		</table>
 		defaults to current semester.
@@ -60,7 +60,7 @@ GET /course/12034/limit?semester=1031
 ## Structure
 <table>
     <tr>
-		<td><b>Filed Name</b></td>
+		<td><b>Field Name</b></td>
 		<td><b>Type</b></td>
 		<td><b>Value Description</b></td>
 	</tr>

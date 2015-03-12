@@ -35,7 +35,7 @@ GET /search/target/cofuZdeptI1I1001I0ZcofgI0
 ## Structure
 <table>
     <tr>
-		<td><b>Filed Name</b></td>
+		<td><b>Field Name</b></td>
 		<td><b>Type</b></td>
 		<td><b>Value Description</b></td>
 	</tr>

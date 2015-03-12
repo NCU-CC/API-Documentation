@@ -35,7 +35,7 @@ GET /course/12034
 ## Structure
 <table>
     <tr>
-		<td><b>Filed Name</b></td>
+		<td><b>Field Name</b></td>
 		<td><b>Type</b></td>
 		<td><b>Value Description</b></td>
 	</tr>
@@ -158,7 +158,7 @@ GET /course/12034
                 <tr>
                     <td>teachers</td>
                     <td>String</td>
-                    <td>seperated by ","</td>
+                    <td>separated by ","</td>
                 </tr>
                 <tr>
                     <td>credit</td>
@@ -168,7 +168,7 @@ GET /course/12034
                 <tr>
                     <td>classRooms</td>
                     <td>String</td>
-					<td>{building}-{classroom}, seperated by ","</td>
+					<td>{building}-{classroom}, separated by ","</td>
                 </tr>
                 <tr>
                     <td>time</td>

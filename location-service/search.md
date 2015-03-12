@@ -53,7 +53,7 @@ GET /search?q=志希
 ## Structure
 <table>
     <tr>
-		<td><b>Filed Name</b></td>
+		<td><b>Field Name</b></td>
 		<td><b>Type</b></td>
 		<td><b>Value Description</b></td>
 	</tr>

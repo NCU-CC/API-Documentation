@@ -5,7 +5,7 @@ GET /search
 ```
 
 ## Description
-> Search course information at current semseter.
+> Search course information at current semester.
 
 # Request
 ## Headers
@@ -100,7 +100,7 @@ GET /search?period=2&week=3
 ## Structure
 <table>
     <tr>
-		<td><b>Filed Name</b></td>
+		<td><b>Field Name</b></td>
 		<td><b>Type</b></td>
 		<td><b>Value Description</b></td>
 	</tr>
