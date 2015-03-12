@@ -47,7 +47,7 @@ GET /search/department/deptI1I1000I0
 </table>
 
 ## Example
-- [Course Example](course/course.md#example)
+- [Course Example](../course/course.md#example-1)
 
 ## Notes
-- [Course Object](course/course.md#structure)
+- [Course Object](../course/course.md#structure)

@@ -5,11 +5,10 @@ GET /student/selected
 ```
 
 ## Description
-> Get selected courses.
+> Get student's selected courses.
 
 ## Authorization
-OAuth 2.0
-> We have a [Android client library](https://github.com/NCU-CC/OAuth-Service/tree/master/oauth-client-android)
+You have to use OAuth 2.0 to access.
 
 # Request
 
@@ -52,7 +51,7 @@ GET /student/selected
 </table>
 
 ## Example
-- [Course Example](course/course.md#example)
+- [Course Example](../course/course.md#example-1)
 
 ## Notes
-- [Course Object](course/course.md#structure)
+- [Course Object](../course/course.md#structure)

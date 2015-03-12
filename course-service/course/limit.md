@@ -88,7 +88,17 @@ GET /course/12034/limit?semester=1031
 				<tr>
 					<td>memos</td>
 					<td>Array</td>
-					<td>all strings</td>
+					<td>
+						Memo Object
+						<table>
+							<tr>
+								<td>priority</td>
+							</tr>
+							<tr>
+								<td>memo</td>
+							</tr>
+						</table>
+					</td>
 				</tr>
             </table>
         </td>
@@ -105,8 +115,14 @@ GET /course/12034/limit?semester=1031
 			"no" : "LA4001",
 			"name" : "文學與劇場",
 			"memos" : [
-				"學院:限文學院。 年級:限三年級、四年級",
-				"學院:限非文學院。 年級:限三年級、四年級"
+				{
+					"priority" : 1,
+					"memo" : "學院:限文學院。 年級:限三年級、四年級"
+				},
+				{
+					"priority" : 2,
+					"memo" : "學院:限非文學院。 年級:限三年級、四年級"
+				}
 			]
         }
     ]

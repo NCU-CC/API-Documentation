@@ -5,7 +5,7 @@ GET /unit/college/{collegeId}/department
 ```
 
 ## Description
-> Find departments by collegeId.
+> Find departments by college.
 
 # Request
 ## Headers
@@ -64,11 +64,11 @@ GET /unit/college/deptI1I1000I0/department
 ```json
 [
 	{
-		'name' : '文學院',
-		'id' : 'deptI1I1000I0'
+		"name" : "文學院",
+		"id" : "deptI1I1000I0"
 	}, {
-		'name' : '中國文學系',
-		'id' : 'deptI1I1001I0'
+		"name" : "中國文學系",
+		"id" : "deptI1I1001I0"
 	}
 ]
 ```
