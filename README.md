@@ -21,7 +21,6 @@ All strings are encoded in UTF-8.
 ## Endpoints
 ##### [Location-Service]
 > /location
-
 - [/place](location-service/place.md)
 - [/search](location-service/search.md)
 - [/unit](location-service/unit.md)
