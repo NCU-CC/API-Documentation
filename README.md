@@ -12,7 +12,7 @@ https://api.cc.ncu.edu.tw
 3. Place API token in request header with key **X-NCU-API-TOKEN**
 
 ## Personal Resource
-Some APIs can access personal information, we use oauth2 to protect them, see [documentation](oauth-service/README.md)
+Some APIs can access personal information, we use OAuth2 to protect them, see [documentation](oauth-service/README.md)
 
 ## Language
 Some NCU APIs are bilingual(zh-TW, en-US) and default to zh-TW. Use **Accept-Language** header to specify your language.

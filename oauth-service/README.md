@@ -1,5 +1,5 @@
-# Oauth
-We use oauth2 to protect personal resources. Only api service with those resource need oauth access token. 
+# OAuth
+We use OAuth2 to protect personal resources. Only api service with those resource need oauth access token. 
 Developers can get access token from 2 ways, they are described below.
 
 ## Authorization Code Grant Flow
