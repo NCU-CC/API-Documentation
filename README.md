@@ -7,10 +7,12 @@ https://api.cc.ncu.edu.tw
 ```
 
 ## Authorization
-You must get the API token before making API calls. 
+1. Register your client at [oauth management page]()
+2. Get the [API token](oauth-service/api_token.md) before making API calls
+3. Place API token in request header with key **X-NCU-API-TOKEN**
 
-1.  Go to [API management page], and login with NCU portal to get the public API token.
-2.  Place API token in header key **X-NCU-API-TOKEN** and value **token**
+## Personal Resource
+Some APIs can access personal information, we use oauth2 to protect them, see [documentation](oauth-service/README.md)
 
 ## Language
 Some NCU APIs are bilingual(zh-TW, en-US) and default to zh-TW. Use **Accept-Language** header to specify your language.
