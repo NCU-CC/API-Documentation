@@ -2,6 +2,11 @@
 We use OAuth2 to protect personal resources. Only api service with those resource need oauth access token. 
 Developers can get access token from 2 ways, they are described below.
 
+## Root URL
+```
+https://api.cc.ncu.edu.tw/oauth
+```
+
 ## Authorization Code Grant Flow
 
 1. get [authorization code](authorization_code.md)
