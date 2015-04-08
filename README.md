@@ -7,8 +7,8 @@ https://api.cc.ncu.edu.tw
 ```
 
 ## Authorization
-1. Register your client at [oauth management page]()
-2. Get the [API token](oauth-service/api_token.md) before making API calls
+1. Register your client at [oauth management page](https://api.cc.ncu.edu.tw/manage)
+2. Get the [API token](oauth-service/README.md) before making API calls
 3. Place API token in request header with key **X-NCU-API-TOKEN**
 
 ## Personal Resource
