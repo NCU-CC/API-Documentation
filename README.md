@@ -45,6 +45,15 @@ All strings are encoded in UTF-8.
 - [/student/{studentId}/selected](course-service/student/selected.md)
 - [/student/{studentId}/tracking](course-service/student/tracking.md)
 
+## Errors
+
+HTTP Status Code | Description       
+---------------- | -----------------
+400              | invalid body or parameter 
+403              | access a protected resource without correct access token
+404              | requested resource not found
+500              | internal server error
+
 ## Problems?
 If you have any problems, please file a issue or just send us pull requests.
 Any pull requests submitted to master branch are not allowed, please submit to **develop** branch.
