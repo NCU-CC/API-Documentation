@@ -22,13 +22,12 @@ All strings are encoded in UTF-8.
 
 ## Endpoints
 ##### [Location-Service]
-> /location
-- [/place](location-service/place.md)
-- [/search](location-service/search.md)
-- [/unit](location-service/unit.md)
-- [/unit/{unitFullName}](location-service/unit_unitName.md)
-- [/faculty/{facultyName}](location-service/faculty.md)
-- [/building](location-service/building.md)
+> /location/v3
+- [/search](location-service/v3/search.md)
+- [/places](location-service/v3/places.md)
+- [/units](location-service/v3/units.md)
+- [/faculties](location-service/v3/faculties.md)
+- [/buildings](location-service/v3/building.md)
 
 ##### [Course-Service]
 > /course
