@@ -18,7 +18,7 @@ GET /buildings
   <tr>
     <td><b>X-API-NCU-TOKEN</b></td>
     <td><i>yes</i></td>
-    <td>Your public API token</td>
+    <td>your API token</td>
   </tr>
 </table>
 

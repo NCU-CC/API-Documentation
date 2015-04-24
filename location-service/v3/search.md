@@ -18,7 +18,7 @@ GET /search
   <tr>
     <td><b>X-NCU-API-TOKEN</b></td>
     <td><i>yes</i></td>
-    <td>Your public API token</td>
+    <td>your API token</td>
   </tr>
 </table>
 ## Query parameters
@@ -31,12 +31,12 @@ GET /search
   <tr>
     <td><b>q</b></td>
     <td><i>yes</i></td>
-    <td>keywords, at least 1, at most 3.</td>
+    <td>keywords</td>
   </tr>
   <tr>
 	<td><b>size</b></td>
 	<td><i>no</i></td>
-	<td>1 &lt;= size &lt;= 50, defaults to 5.</td>
+	<td>1 &lt;= size &lt;= 5, defaults to 3.</td>
   </tr>
 </table>
 
@@ -76,7 +76,7 @@ GET /search?q=志希
        <td>location</td>
        <td>LatLng</td>
         <td>
-            LatLng Object
+            latlng object
             <table>
                 <tr>
                     <td>lat</td>

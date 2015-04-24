@@ -18,7 +18,7 @@ GET /units
   <tr>
     <td><b>X-API-NCU-TOKEN</b></td>
     <td><i>yes</i></td>
-    <td>Your public API token</td>
+    <td>your API token</td>
   </tr>
 </table>
 ## Query Parameters
@@ -37,11 +37,6 @@ GET /units
 	<td><b>building_cname</b></td>
 	<td><i>yes</i></td>
 	<td>place's full Chinese name</td>
-  </tr>
-  <tr>
-	<td><b>size</b></td>
-	<td><i>no</i></td>
-	<td>1 &lt;= size &lt;= 50, defaults to 5.</td>
   </tr>
 </table>
 
@@ -103,15 +98,14 @@ GET /units?building_cname=志希館
 		<td>location</td>
 		<td>LatLng</td>
 		<td>
-			LatLng Object
 			<table>
 				<tr>
 					<td>lat</td>
-					<td>Latitude</td>
+					<td>latitude</td>
 				</tr>
 				<tr>
 					<td>lng</td>
-					<td>Longitude</td>
+					<td>longitude</td>
 				</tr>
 			</table>
 		</td>
