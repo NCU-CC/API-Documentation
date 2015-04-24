@@ -27,7 +27,7 @@ All strings are encoded in UTF-8.
 - [/places](location-service/v3/places.md)
 - [/units](location-service/v3/units.md)
 - [/faculties](location-service/v3/faculties.md)
-- [/buildings](location-service/v3/building.md)
+- [/buildings](location-service/v3/buildings.md)
 
 ##### [Course-Service]
 > /course
