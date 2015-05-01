@@ -21,6 +21,13 @@ Some NCU APIs are bilingual(zh-TW, en-US) and default to zh-TW. Use **Accept-Lan
 All strings are encoded in UTF-8.
 
 ## Endpoints
+
+##### [Activity-Service]
+> /activity/v3
+- [/activities](activity-service/v3/activities.md)
+- [/announces](activity-service/v3/announces.md)
+- [/clubs](activity-service/v3/clubs.md)
+
 ##### [Location-Service]
 > /location/v3
 - [/search](location-service/v3/search.md)
