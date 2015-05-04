@@ -41,9 +41,9 @@ All strings are encoded in UTF-8.
 - [/buildings](location-service/v3/buildings.md)
 
 ##### [Course-Service]
-> /course
-- [/student/{studentId}/selected](course-service/student/selected.md)
-- [/student/{studentId}/tracking](course-service/student/tracking.md)
+> /course/v1
+- [/student/selected](course-service/v1/student/selected.md)
+- [/student/tracking](course-service/v1/student/tracking.md)
 
 ## Errors
 
