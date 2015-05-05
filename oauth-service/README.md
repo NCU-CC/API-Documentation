@@ -7,6 +7,9 @@ Developers can get access token from 2 ways, they are described below.
 https://api.cc.ncu.edu.tw/oauth
 ```
 
+## OAuth Scope
+you can view all scopes in [scope list](scope.md)
+
 ## Authorization Code Grant Flow
 
 1. get [authorization code](authorization_code.md)

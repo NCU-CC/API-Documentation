@@ -5,14 +5,10 @@ GET /student/selected
 ```
 
 ## Description
-> Get student's selected courses by OAuth token.
-
-# Authorization
-
-You have to use OAuth 2.0 to access.
+> Get student's selected courses.
 
 ## Required Scope
-- CLASS_READ
+- course.schedule.read
 
 # Request
 
@@ -22,11 +18,6 @@ You have to use OAuth 2.0 to access.
         <td><b>Name</b></td>
         <td><b>Required</b></td>
         <td><b>Description</b></td>
-    </tr>
-    <tr>
-        <td><b>X-API-NCU-TOKEN</b></td>
-        <td><i>yes</i></td>
-        <td>Your API token</td>
     </tr>
     <tr>
         <td><b>Authorization</b></td>
