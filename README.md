@@ -7,12 +7,16 @@ https://api.cc.ncu.edu.tw
 ```
 
 ## Authorization
-1. Register your client at [oauth management page](https://api.cc.ncu.edu.tw/manage)
-2. Get the [API token](oauth-service/README.md) before making API calls
-3. Place API token in request header with key **X-NCU-API-TOKEN**
 
-## Personal Resource
-Some APIs can access personal information, we use OAuth2 to protect them, see [documentation](oauth-service/README.md)
+You have to register a client at [oauth management website](https://api.cc.ncu.edu.tw/manage) first before making any API calls.
+There are two situations to use our API:
+
+- access resources with personal information : 
+    1. follow the **OAuth2** flow to get an **access token**, see [documentation](oauth-service/README.md)
+    2. follow the documentation of API to append access token
+- access resources without personal information :
+    1. get an **api token** from client management page of [oauth management website](https://api.cc.ncu.edu.tw/manage) 
+    2. follow the documentation of API to append api token
 
 ## Language
 Some NCU APIs are bilingual(zh-TW, en-US) and default to zh-TW. Use **Accept-Language** header to specify your language.
