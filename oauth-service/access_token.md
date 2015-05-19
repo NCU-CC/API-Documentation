@@ -1,7 +1,7 @@
 # Access Token
 
 ```
-GET /oauth/token
+POST /oauth/token
 ```
 
 ## Description
@@ -39,7 +39,7 @@ GET /oauth/token
 
 ## Example
 ```
-GET /oauth/token?grant_type=authorization_code&code=SplxlOBeZQQYbYS6WxSbIA&client_id=ABC123&client_secret=QQYbY
+POST /oauth/token?grant_type=authorization_code&code=SplxlOBeZQQYbYS6WxSbIA&client_id=ABC123&client_secret=QQYbY
 ```
 
 # Response
