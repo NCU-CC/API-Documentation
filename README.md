@@ -45,6 +45,10 @@ All strings are encoded in UTF-8.
 - [/student/selected](course-service/v1/student/selected.md)
 - [/student/tracking](course-service/v1/student/tracking.md)
 
+#### [Student-Service]
+> /student/v1
+- [/cards](student-service/v1/cards.md)
+
 ## Errors
 
 HTTP Status Code | Description       
