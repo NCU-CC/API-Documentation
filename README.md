@@ -42,12 +42,23 @@ All strings are encoded in UTF-8.
 
 ##### [Course-Service]
 > /course/v1
+- [/status](course-service/v1/status.md)
+- [/unit/college](course-service/v1/unit/college.md)
+- [/unit/college/{collegeId}/department](course-service/v1/unit/college_department.md)
+- [/unit/department/{departmentId}/target](course-service/v1/unit/department_target.md)
+- [/course/{serialNo}](course-service/v1/course/course.md)
+- [/course/{serialNo}/limit](course-service/v1/course/limit.md)
+- [/search](course-service/v1/search/search.md)
+- [/search/department/{departmentId}](course-service/v1/search/department.md)
+- [/search/target/{targetId}](course-service/v1/search/target.md)
+- [/search/summer/{stage}](course-service/v1/search/summer.md)
 - [/student/selected](course-service/v1/student/selected.md)
+- [/student/rejected](course-service/v1/student/rejected.md)
 - [/student/tracking](course-service/v1/student/tracking.md)
 
-#### [Student-Service]
-> /student/v1
-- [/cards](student-service/v1/cards.md)
+##### [Personnel-Service]
+> /personnel/v1
+- [/cards/{cardNumber}](personnel-service/v1/cards.md)
 
 ## Errors
 
@@ -69,5 +80,7 @@ The format of this document refer to [Documentation for University of Waterloo A
 MIT License Copyright © 2015-2015 Computer Center, National Central University
 
 [API management page]:https://api.cc.ncu.edu.tw/manage
+[Activity-Service]:https://github.com/NCU-CC/Activity-Service
+[Personnel-Service]:https://github.com/NCU-CC/Personnel-Service
 [Location-Service]:https://github.com/NCU-CC/Location-Service
 [Course-Service]:https://github.com/NCU-CC/Course-Service
