@@ -16,7 +16,7 @@ GET /places
     <td><b>Description</b></td>
   </tr>
   <tr>
-    <td><b>X-API-NCU-TOKEN</b></td>
+    <td><b>X-NCU-API-TOKEN</b></td>
     <td><i>yes</i></td>
     <td>your API token</td>
   </tr>
