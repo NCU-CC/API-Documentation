@@ -1,11 +1,11 @@
-# Get Selected Courses
+# Get Rejected Courses
 
 ```
-GET /student/selected
+GET /student/rejected
 ```
 
 ## Description
-> Get student's selected courses.
+> Get student's rejected courses.
 
 ## Required Scope
 - course.schedule.read
@@ -28,7 +28,7 @@ GET /student/selected
 
 ## Example
 ```
-GET /student/selected
+GET /student/rejected
 ```
 
 # Response

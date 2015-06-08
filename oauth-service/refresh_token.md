@@ -1,7 +1,7 @@
 # Refresh Token
 
 ```
-GET /oauth/token
+POST /oauth/token
 ```
 
 ## Description

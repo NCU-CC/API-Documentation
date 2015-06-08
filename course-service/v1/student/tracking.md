@@ -38,7 +38,7 @@ GET /student/tracking
 
 
 ## Structure
-[Course Object](../../course/course.md#structure)
+[Course Object](../course/course.md#structure)
 
 ## Example
-[Course Example](../../course/course.md#example-1)
+[Course Example](../course/course.md#example-1)
