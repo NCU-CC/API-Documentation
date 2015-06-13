@@ -5,7 +5,7 @@ GET /cards/{card_number}
 ```
 
 ## Description
-> Get person information by card number
+> Get person information by NCU card number. Read the NCU card number by devices with NFC.
 
 # Request
 
@@ -19,7 +19,7 @@ GET /cards/{card_number}
   <tr>
 	<td><b>id</b></td>
 	<td><i>yes</i></td>
-	<td>the last 4 digits of your id card number (身分證字號) for security reason</td>
+	<td>the last 4 digits of your id card number (身分證字號) for security purpose</td>
   </tr>
 </table>
 
@@ -135,6 +135,6 @@ There are two types of response. You can verify the type by **type** attribute
     "name" : "jack",
     "type" : "FACULTY",
     "unit" : "computer center",
-    "TITLE" : "software developer",
+    "title" : "software developer",
 }
 ```
