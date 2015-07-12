@@ -7,6 +7,9 @@ GET /cards/{card_number}
 ## Description
 > Get person information by card number
 
+## Required Scope
+- user.info.basic.read
+
 # Request
 
 ## Query Parameters
@@ -31,9 +34,9 @@ GET /cards/{card_number}
         <td><b>Description</b></td>
     </tr>
     <tr>
-        <td><b>X-NCU-API-TOKEN</b></td>
+        <td><b>Authorization</b></td>
         <td><i>yes</i></td>
-        <td>your API token</td>
+        <td>Your OAuth token in the form of <code>Bearer XXX</code></td>
     </tr>
 </table>
 
