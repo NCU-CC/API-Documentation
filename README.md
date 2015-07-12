@@ -59,6 +59,7 @@ All strings are encoded in UTF-8.
 ##### [Personnel-Service]
 > /personnel/v1
 - [/cards/{cardNumber}](personnel-service/v1/cards.md)
+- [/info](personnel-service/v1/info.md)
 
 ## Error Status Code
 
