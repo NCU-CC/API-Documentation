@@ -1,7 +1,7 @@
 # Search Summer Course Information
 
 ```
-GET /search/summer/{stage}
+GET /summer/{stage}/courses
 ```
 
 ## Description
@@ -24,7 +24,7 @@ GET /search/summer/{stage}
 
 ## Example
 ```
-GET /search/summer/1
+GET /summer/1/courses
 ```
 
 # Response

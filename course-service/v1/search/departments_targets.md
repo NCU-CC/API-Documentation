@@ -1,7 +1,7 @@
 # Find Targets.
 
 ```
-GET /unit/department/{departmentId}/target
+GET /departments/{departmentId}/targets
 ```
 
 ## Description
@@ -24,7 +24,7 @@ GET /unit/department/{departmentId}/target
 
 ## Example
 ```
-GET /unit/department/deptI1I1000I0/target
+GET /departments/deptI1I1000I0/targets
 ```
 
 # Response

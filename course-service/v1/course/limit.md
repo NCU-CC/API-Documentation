@@ -1,7 +1,7 @@
 # Find Course Limitation
 
 ```
-GET /course/{serialNo}/limit
+GET /courses/{serialNo}/limit
 ```
 
 ## Description
@@ -49,7 +49,7 @@ GET /course/{serialNo}/limit
 
 ## Example
 ```
-GET /course/12034/limit?semester=1031
+GET /courses/12034/limit?semester=1031
 ```
 
 # Response

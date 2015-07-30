@@ -1,7 +1,7 @@
 # Find Course Information
 
 ```
-GET /course/{serialNo}
+GET /courses/{serialNo}
 ```
 
 ## Description
@@ -24,7 +24,7 @@ GET /course/{serialNo}
 
 ## Example
 ```
-GET /course/12034
+GET /courses/12034
 ```
 
 # Response
@@ -60,7 +60,7 @@ GET /course/12034
         <td>course name</td>
     </tr>
     <tr>
-        <td>isCanceled</td>
+        <td>isClosed</td>
         <td>Boolean</td>
         <td>is canceled or not.</td>
     </tr>
@@ -119,7 +119,7 @@ GET /course/12034
         </td>
     </tr>
     <tr>
-        <td>usePasswordCard</td>
+        <td>passwordCard</td>
         <td>Enum</td>
         <td>
             Password Card
@@ -151,8 +151,8 @@ GET /course/12034
     </tr>
     <tr>
         <td>teachers</td>
-        <td>String</td>
-        <td>separated by ","</td>
+        <td>String Array</td>
+        <td>teacher names</td>
     </tr>
     <tr>
         <td>credit</td>
@@ -161,11 +161,11 @@ GET /course/12034
     </tr>
     <tr>
         <td>classRooms</td>
-        <td>String</td>
-        <td>{building}-{classroom}, separated by ","</td>
+        <td>String[]</td>
+        <td>class room number with building code</td>
     </tr>
     <tr>
-        <td>time</td>
+        <td>times</td>
         <td>Object</td>
         <td>Key : Day of Week
             <table>
@@ -240,7 +240,7 @@ GET /course/12034
         </td>					
     </tr>
     <tr>
-        <td>limit</td>
+        <td>maxStudents</td>
         <td>Number</td>
         <td>maximum amount of students, 0 means infinity.</td>
     </tr>
@@ -250,27 +250,27 @@ GET /course/12034
 ```json
 [
 	{
-		"serialNo" : 12034,
-		"no" : "EL5001",
-		"classNo" : "*",
-		"name" : "文學\/文化理論導讀",
-		"isCanceled" : false,
-		"memo" : "限三、四年級",
-		"isMasterDoctor" : false,
-		"language" : "Chinese",
-		"usePasswordCard" : "no",
-		"isFirstRun" : true,
-		"isPreSelect" : true,
-		"teachers" : "錢夫人,阿土伯",
-		"credit" : 2,
-		"classRooms" : "C2-209,C2-209",
-		"time" : { 
-		  "0": ["5"], 
-		  "2": ["3", "4"]
-		},
-		"type" : "required",
-		"fullHalf" : "half",
-		"maxStudents" : 0
-	}
+        "serialNo" : 12034,
+        "no" : "EL5001",
+        "classNo" : "*",
+        "name" : "文學/文化理論導讀",
+        "isClosed" : false,
+        "memo": "限三、四年級",
+        "isMasterDoctor": false,
+        "language": "國語",
+        "passwordCard": "不使用",
+        "isFirstRun": true,
+        "isPreSelect": true,
+        "teachers": [  "錢夫人", "阿土伯" ],
+        "credit": 2,
+        "classRooms": [ "C2-209", "C2-209" ],
+        "times": {
+                  "0": ["5"],
+                  "2": ["3", "4"]
+                },
+        "type": "必修",
+        "fullHalf": "全",
+        "maxStudents": 0
+    }
 ]
 ```

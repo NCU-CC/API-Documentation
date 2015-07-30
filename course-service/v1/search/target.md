@@ -1,7 +1,7 @@
 # Search Course Information By Target
 
 ```
-GET /search/target/{targetId}
+GET /targets/{targetId}/courses
 ```
 
 ## Description
@@ -24,7 +24,7 @@ GET /search/target/{targetId}
 
 ## Example
 ```
-GET /search/target/cofuZdeptI1I1001I0ZcofgI0
+GET /targets/cofuZdeptI1I1001I0ZcofgI0/courses
 ```
 
 # Response

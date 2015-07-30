@@ -27,31 +27,31 @@ All strings are encoded in UTF-8.
 ## Endpoints
 
 ##### [Activity-Service]
-> /activity/v3
-- [/activities](activity-service/v3/activities.md)
-- [/announces](activity-service/v3/announces.md)
-- [/clubs](activity-service/v3/clubs.md)
+> /activity/v1
+- [/activities](activity-service/v1/activities.md)
+- [/announces](activity-service/v1/announces.md)
+- [/clubs](activity-service/v1/clubs.md)
 
 ##### [Location-Service]
-> /location/v3
-- [/search](location-service/v3/search.md)
-- [/places](location-service/v3/places.md)
-- [/units](location-service/v3/units.md)
-- [/faculties](location-service/v3/faculties.md)
-- [/buildings](location-service/v3/buildings.md)
+> /location/v1
+- [/search](location-service/v1/search.md)
+- [/places](location-service/v1/places.md)
+- [/units](location-service/v1/units.md)
+- [/faculties](location-service/v1/faculties.md)
+- [/buildings](location-service/v1/buildings.md)
 
 ##### [Course-Service]
 > /course/v1
 - [/status](course-service/v1/status.md)
-- [/unit/college](course-service/v1/unit/college.md)
-- [/unit/college/{collegeId}/department](course-service/v1/unit/college_department.md)
-- [/unit/department/{departmentId}/target](course-service/v1/unit/department_target.md)
-- [/course/{serialNo}](course-service/v1/course/course.md)
-- [/course/{serialNo}/limit](course-service/v1/course/limit.md)
-- [/search](course-service/v1/search/search.md)
-- [/search/department/{departmentId}](course-service/v1/search/department.md)
-- [/search/target/{targetId}](course-service/v1/search/target.md)
-- [/search/summer/{stage}](course-service/v1/search/summer.md)
+- [/colleges](course-service/v1/unit/college.md)
+- [/colleges/{collegeId}/departments](course-service/v1/unit/college_department.md)
+- [/departments/{departmentId}/targets](course-service/v1/search/departments_targets.md)
+- [/departments/{departmentId}](course-service/v1/search/departments_courses.md)
+- [/courses/{serialNo}](course-service/v1/course/course.md)
+- [/courses/{serialNo}/limit](course-service/v1/course/limit.md)
+- [/courses](course-service/v1/course/search.md)
+- [/targets/{targetId}/courses](course-service/v1/search/target.md)
+- [/summer/{stage}/courses](course-service/v1/search/summer.md)
 - [/student/selected](course-service/v1/student/selected.md)
 - [/student/rejected](course-service/v1/student/rejected.md)
 - [/student/tracking](course-service/v1/student/tracking.md)
@@ -66,8 +66,10 @@ All strings are encoded in UTF-8.
 HTTP Status Code | Description       
 ---------------- | -----------------
 400              | invalid body or parameter.
-403              | access a protected resource with an invalid access token.
+401              | access a protected resource with an invalid token.
+403              | access a protected resource with an token from invalid client.
 404              | resource not found.
+405              | invalid request method 
 500              | internal server error.
 
 ## Problems?

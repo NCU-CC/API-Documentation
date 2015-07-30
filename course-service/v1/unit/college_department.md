@@ -1,7 +1,7 @@
 # Find Departments By College.
 
 ```
-GET /unit/college/{collegeId}/department
+GET /colleges/{collegeId}/departments
 ```
 
 ## Description
@@ -24,7 +24,7 @@ GET /unit/college/{collegeId}/department
 
 ## Example
 ```
-GET /unit/college/deptI1I1000I0/department
+GET /colleges/deptI1I1000I0/departments
 ```
 
 # Response

@@ -1,7 +1,7 @@
 # Search Course Information
 
 ```
-GET /search
+GET /courses
 ```
 
 ## Description
@@ -89,7 +89,7 @@ GET /search
 
 ## Example
 ```
-GET /search?period=2&week=3
+GET /courses?period=2&week=3
 ```
 
 # Response

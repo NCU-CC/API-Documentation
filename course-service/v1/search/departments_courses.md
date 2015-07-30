@@ -1,7 +1,7 @@
 # Search Course Information By Department
 
 ```
-GET /search/department/{departmentId}
+GET /departments/{departmentId}/courses
 ```
 
 ## Description
@@ -24,7 +24,7 @@ GET /search/department/{departmentId}
 
 ## Example
 ```
-GET /search/department/deptI1I1000I0
+GET /departments/deptI1I1000I0/courses
 ```
 
 # Response

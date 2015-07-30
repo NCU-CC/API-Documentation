@@ -1,7 +1,7 @@
 # Find All Colleges.
 
 ```
-GET /unit/college
+GET /colleges
 ```
 
 ## Description
@@ -24,7 +24,7 @@ GET /unit/college
 
 ## Example
 ```
-GET /unit/college
+GET /colleges
 ```
 
 # Response
