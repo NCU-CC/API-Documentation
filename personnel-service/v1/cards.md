@@ -120,6 +120,11 @@ There are two types of response. You can verify the type by **type** attribute
            <td>String</td>
            <td>faculty title</td>
         </tr>
+        <tr>
+           <td>number</td>
+           <td>String</td>
+           <td>faculty number</td>
+        </tr>
     </table>
 
 ## Example
@@ -139,5 +144,6 @@ There are two types of response. You can verify the type by **type** attribute
     "type" : "FACULTY",
     "unit" : "computer center",
     "title" : "software developer",
+    "number" : "F123456"",
 }
 ```
