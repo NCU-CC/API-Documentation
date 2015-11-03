@@ -156,6 +156,6 @@ There are two types of response. You can verify the type by **type** attribute
     "type" : "FACULTY",
     "unit" : "computer center",
     "title" : "software developer",
-    "number" : "F123456"",
+    "number" : "F123456",
 }
 ```
