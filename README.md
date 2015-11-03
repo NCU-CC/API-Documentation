@@ -61,6 +61,12 @@ All strings are encoded in UTF-8.
 - [/cards/{cardNumber}](personnel-service/v1/cards.md)
 - [/info](personnel-service/v1/info.md)
 
+##### [Calendar-Service]
+> /calendar/v1
+- [/categories](calendar-service/v1/categories.md)
+- [/event](calendar-service/v1/event/)
+- [/events](calendar-service/v1/events.md)
+
 ## Error Status Code
 
 HTTP Status Code | Description       
@@ -88,3 +94,4 @@ MIT License Copyright © 2015-2015 Computer Center, National Central University
 [Personnel-Service]:https://github.com/NCU-CC/Personnel-Service
 [Location-Service]:https://github.com/NCU-CC/Location-Service
 [Course-Service]:https://github.com/NCU-CC/Course-Service
+[Calendar-Service]:https://github.com/NCU-CC/Calendar-Service
