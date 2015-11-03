@@ -66,6 +66,11 @@ There are two types of response. You can verify the type by **type** attribute
             <td><b>Value Description</b></td>
         </tr>
         <tr>
+           <td>id</td>
+           <td>String</td>
+           <td>identity</td>
+        </tr>
+        <tr>
            <td>name</td>
            <td>String</td>
            <td>person name</td>
@@ -88,7 +93,7 @@ There are two types of response. You can verify the type by **type** attribute
         <tr>
            <td>number</td>
            <td>String</td>
-           <td>student number</td>
+           <td>student number ( deprecated )</td>
         </tr>
     </table>
     
@@ -99,6 +104,11 @@ There are two types of response. You can verify the type by **type** attribute
             <td><b>Field Name</b></td>
             <td><b>Type</b></td>
             <td><b>Value Description</b></td>
+        </tr>
+        <tr>
+           <td>id</td>
+           <td>String</td>
+           <td>identity</td>
         </tr>
         <tr>
            <td>name</td>
@@ -123,13 +133,14 @@ There are two types of response. You can verify the type by **type** attribute
         <tr>
            <td>number</td>
            <td>String</td>
-           <td>faculty number</td>
+           <td>faculty number ( deprecated )</td>
         </tr>
     </table>
 
 ## Example
 ```json
 {
+    "id": "101502549",
     "name" : "john",
     "type" : "STUDENT",
     "unit" : "computer science",
@@ -140,6 +151,7 @@ There are two types of response. You can verify the type by **type** attribute
 
 ```json
 {
+    "id": "F123456",
     "name" : "jack",
     "type" : "FACULTY",
     "unit" : "computer center",
