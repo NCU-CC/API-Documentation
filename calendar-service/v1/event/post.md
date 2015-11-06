@@ -22,7 +22,7 @@ POST /event
     <tr>
         <td><b>Authorization</b></td>
         <td>yes</td>
-        <td>Bearer token.<td>
+        <td>Bearer token.</td>
     </tr>
 </table>
 
