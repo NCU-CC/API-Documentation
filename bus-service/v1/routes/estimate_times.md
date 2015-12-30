@@ -30,9 +30,11 @@ GET /routes/{routeId}/estimate_times
   </tr>
   <tr>
     <td><b>routeId</b></td>
-    <td>specific route id, it can only be one of <br>133 `(133)`, 3220 `(132)`, 3221 `(172)`, 3222 `(132_A)` </td>
+    <td>specific route id</td>
   </tr>
 </table>
+
+**※ routeId can only be one of 133 `(133)`, 3220 `(132)`, 3221 `(172)`, 3222 `(132_A)`**
 
 ## Example
 ```
