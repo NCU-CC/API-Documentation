@@ -11,7 +11,7 @@ https://api.cc.ncu.edu.tw
 Before you making any API calls, you have to register a client at [OAuth Management] first.
 There are two situations to use our API:
 
-- Access resources that contains personal information : 
+- Access resources that contains personal information :
     1. Follow the **OAuth 2.0** protocol to get an **access token**, see [documentation](oauth-service/README.md).
     2. Read the [documentation](oauth-service/README.md) to use **access token**.
 - Access resources without personal information :
@@ -67,6 +67,10 @@ All strings are encoded in UTF-8.
 - [/event](calendar-service/v1/event/)
 - [/events](calendar-service/v1/events.md)
 
+##### [Bus-Service]
+> /bus/v1
+- [/routes/{routeId}/estimate_times](bus-service/v1/routes/estimate_times.md)
+
 ## Error Status Code
 
 HTTP Status Code | Description       
@@ -75,7 +79,7 @@ HTTP Status Code | Description
 401              | access a protected resource with an invalid token.
 403              | access a protected resource with an token from invalid client.
 404              | resource not found.
-405              | invalid request method 
+405              | invalid request method
 500              | internal server error.
 
 ## Problems?
@@ -95,3 +99,4 @@ MIT License Copyright © 2015-2015 Computer Center, National Central University
 [Location-Service]:https://github.com/NCU-CC/Location-Service
 [Course-Service]:https://github.com/NCU-CC/Course-Service
 [Calendar-Service]:https://github.com/NCU-CC/Calendar-Service
+[Bus-Service]:https://github.com/NCU-CC/Bus-Service
